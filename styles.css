@@ -33,9 +33,9 @@ body{
 
 .card {
   background: var(--card);
-  padding: 24px;
-  border-radius: 8px;
-  border: 1px solid rgba(0,0,0,0.04);
+  padding: 28px;        /* Previously 24px */
+  border-radius: 10px;  /* Slightly smoother */
+  border: 1px solid rgba(0,0,0,0.05);
 }
 .card.small{max-width:480px}
 
@@ -45,8 +45,8 @@ h3,h4{margin:0 0 10px 0}
 
 /* Experience */
 .exp {
-  padding: 16px 0;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding: 22px 0;               /* More breathing space */
+  border-bottom: 1px solid rgba(0,0,0,0.10);
 }
 
 .exp:last-child {
