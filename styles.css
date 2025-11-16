@@ -1,8 +1,17 @@
 /* Minimalistic black & white theme — responsive */
 :root{
-  --bg:#ffffff; --fg:#0b0b0b; --muted:#6b6b6b; --card:#f6f6f6;
+  --bg:#ffffff;
+  --fg:#0b0b0b;
+  --muted:#6b6b6b;
+  --card:#fafafa;       /* slightly lighter background */
 }
-[data-theme="dark"]{ --bg:#0b0b0b; --fg:#f6f6f6; --muted:#bdbdbd; --card:#131313; }
+
+[data-theme="dark"]{
+  --bg:#0b0b0b;
+  --fg:#f6f6f6;
+  --muted:#bdbdbd;
+  --card:#181818;       /* slightly lighter than body for contrast */
+}
 
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -37,16 +46,35 @@ body{
   border-radius: 10px;  /* Slightly smoother */
   border: 1px solid rgba(0,0,0,0.05);
 }
+.card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
 .card.small{max-width:480px}
 
-h3,h4{margin:0 0 10px 0}
-.skills{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:6px}
+h3, h4 {
+  margin-bottom: 14px;
+}
+.skills{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:10px}
 .skills li{font-size:14px;color:var(--muted)}
 
 /* Experience */
 .exp {
-  padding: 22px 0;               /* More breathing space */
-  border-bottom: 1px solid rgba(0,0,0,0.10);
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  transition: background-color 0.15s ease;
+}
+
+.exp:hover {
+  background-color: rgba(0,0,0,0.03);
+}
+
+[data-theme="dark"] .exp:hover {
+  background-color: rgba(255,255,255,0.04);
 }
 
 .exp:last-child {
@@ -70,5 +98,5 @@ a:hover{text-decoration:underline}
 
 /* Add vertical spacing between major sections */
 section {
-  margin-bottom: 32px;
+  margin-bottom: 42px;
 }
