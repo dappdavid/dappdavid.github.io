@@ -20,7 +20,7 @@ body{
   background:var(--bg); color:var(--fg); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
   line-height:1.45;
 }
-.container{max-width:900px;margin:0 auto;padding:28px;}
+.container{max-width:900px;margin:0 auto;padding:12px;}
 .site-header{border-bottom:1px solid var(--card);}
 .site-header .container{display:flex;align-items:center;justify-content:space-between;padding:18px 0;}
 .logo {
@@ -43,13 +43,13 @@ body{
 .stack {
   display: flex;
   flex-direction: column;
-  gap: 32px;   /* Increased gap */
+  gap: 24px;   /* Increased gap */
   margin: 8px 0 32px;
 }
 
 .card {
   background: var(--card);
-  padding: 28px;        /* Previously 24px */
+  padding: 12px;        /* Previously 24px */
   border-radius: 10px;  /* Slightly smoother */
   border: 1px solid rgba(0,0,0,0.05);
 }
