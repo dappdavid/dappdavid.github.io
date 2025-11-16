@@ -23,7 +23,12 @@ body{
 .container{max-width:900px;margin:0 auto;padding:28px;}
 .site-header{border-bottom:1px solid var(--card);}
 .site-header .container{display:flex;align-items:center;justify-content:space-between;padding:18px 0;}
-.logo{font-size:18px;letter-spacing:1px;margin:0}
+.logo {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-left: 12px;   /* adds space before 'D' */
+}
 .controls{display:flex;gap:12px;align-items:center}
 
 /* Hero */
