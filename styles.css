@@ -33,7 +33,7 @@ body{
 
 /* Hero */
 .hero {
-  padding: 20px 0 12px;
+  padding: 12px 0 6px;
 }
 .hero h2{margin:0;font-size:20px;font-weight:600}
 .tagline{color:var(--muted);margin:8px 0 16px}
@@ -120,7 +120,7 @@ a:hover{text-decoration:underline}
 
 /* Add vertical spacing between major sections */
 section {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 /* Education styling */
