@@ -68,6 +68,11 @@ body{
   margin-bottom: 32px;
 }
 
+.card.summary p {
+  font-size: 14px;    
+  line-height: 1.5;
+}
+
 [data-theme="dark"] .card.summary {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
