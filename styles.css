@@ -61,6 +61,17 @@ body{
 }
 .card.small{max-width:480px}
 
+/* Thin divider below Summary card */
+.card.summary {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+[data-theme="dark"] .card.summary {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
 h3, h4 {
   margin-bottom: 14px;
 }
