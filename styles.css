@@ -44,7 +44,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 24px;   /* Increased gap */
-  margin: 8px 0 32px;
+  margin: 4px 0 16px;
 }
 
 .card {
