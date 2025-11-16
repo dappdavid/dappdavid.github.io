@@ -22,7 +22,7 @@ body{
 }
 .container{max-width:900px;margin:0 auto;padding:12px;}
 .site-header{border-bottom:1px solid var(--card);}
-.site-header .container{display:flex;align-items:center;justify-content:space-between;padding:18px 0;}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;padding:10px 0;}
 .logo {
   font-size: 18px;
   letter-spacing: 1px;
@@ -33,7 +33,7 @@ body{
 
 /* Hero */
 .hero {
-  padding: 12px 0 6px;
+  padding: 4px 0 4px;
 }
 .hero h2{margin:0;font-size:20px;font-weight:600}
 .tagline{color:var(--muted);margin:8px 0 16px}
@@ -120,7 +120,7 @@ a:hover{text-decoration:underline}
 
 /* Add vertical spacing between major sections */
 section {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 /* Education styling */
